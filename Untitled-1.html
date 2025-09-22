@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Datos</h2>
+            <form action="#">
+                <label for="nombre">nombre:</label>
+                <input type="text" id="nombre" required placeholder="escribe tu nombre"><br>
+                <br><label for="email">email:</label>
+                <input type="email" id="email" required placeholder="escribe tu correo"><br>
+                <br><label for="password">contraseña:</label>
+                <input type="password" id="password" name="password" required placeholder="contraseña" minlength="10"><br>
+                <br><label for="edad">Edad:</label>
+                <input type="number" id="edad" min="0" max="99" required placeholder="Ingresa tu edad">
+                <input type="submit" value="Iniciar sesion"><br>
+                <br><label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="telefono"><br>
+                <br><label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="Ingresa tu telefono"><br>
+                <br><label>¿Cual es tu genero?</label><br>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label><br>
+                <br><label>¿Cual es tu hobby?</label><br>
+                <input type="checkbox" id="deporte" name="intereses[]" value="deportes">
+                <label for="deportes">Deportes</label><br>
+                <input type="checkbox" id="musica" name="intereses[]" value="musica">
+                <label for="musica">Musica</label><br>
+                <input type="checkbox" id="lectura" name="intereses[]" value="lectura">
+                <label for="lectura">Lectura</label><br>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
